@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokedex with Sounds</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+
+            <table class="pokedex_table">
+                <caption>Sina's PokéDex</caption>
+
+                <tr>
+                    <th>Nr.</th>
+                    <th>Name</th>
+                    <th>Icon</th>
+                    <th>Typ</th>
+                    <th>Größe</th>
+                    <th>Gewicht</th>
+                    <th>Ruf</th>
+                </tr>
+
+                <tr class="grey">
+                    <td>0001</td>
+                    <td>Bisasam</td>
+                    <td class="img"><img src="img/bisasam.png"></td>
+                    <td>
+                        <span class="type pflanze">Pflanze</span>
+                        <span class="type gift">Gift</span>
+                    </td>
+                    <td>0.7 m</td>
+                    <td>6.9 kg</td>
+                    <td>
+                        <!-- Audio and Play Button -->
+                        <audio id="audioBisasam" src="audio/0001.mp3"></audio>
+                        <button onclick="document.getElementById('audioBisasam').play()">Play Sound</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>0002</td>
+                    <td>Bisaknosp</td>
+                    <td class="img"><img src="img/bisaknosp.png"></td>
+                    <td>
+                        <span class="type pflanze">Pflanze</span>
+                        <span class="type gift">Gift</span>
+                    </td>
+                    <td>1.0 m</td>
+                    <td>13.0 kg</td>
+                    <td>
+                        <audio id="audioBisaknosp" src="audio/0002.mp3"></audio>
+                        <button onclick="document.getElementById('audioBisaknosp').play()">Play Sound</button>
+                    </td>
+                </tr>
+
+                <tr class="grey">
+                    <td>0003</td>
+                    <td>Bisaflor</td>
+                    <td class="img"><img src="img/bisaflor.png"></td>
+                    <td>
+                        <span class="type pflanze">Pflanze</span>
+                        <span class="type gift">Gift</span>
+                    </td>
+                    <td>2.0 m</td>
+                    <td>100.0 kg</td>
+                    <td>
+                        <audio id="audioBisaflor" src="audio/0003.mp3"></audio>
+                        <button onclick="document.getElementById('audioBisaflor').play()">Play Sound</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>0004</td>
+                    <td>Glumanda</td>
+                    <td class="img"><img src="img/glumanda.png"></td>
+                    <td><span class="type feuer">Feuer</span></td>
+                    <td>0.6 m</td>
+                    <td>8.5 kg</td>
+                    <td>
+                        <audio id="audioGlumanda" src="audio/0004.mp3"></audio>
+                        <button onclick="document.getElementById('audioGlumanda').play()">Play Sound</button>
+                    </td>
+                </tr>
+
+                <tr class="grey">
+                    <td>0005</td>
+                    <td>Glutexo</td>
+                    <td class="img"><img src="img/glutexo.png"></td>
+                    <td><span class="type feuer">Feuer</span></td>
+                    <td>1.1 m</td>
+                    <td>19.0 kg</td>
+                    <td>
+                        <audio id="audioGlutexo" src="audio/0005.mp3"></audio>
+                        <button onclick="document.getElementById('audioGlutexo').play()">Play Sound</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>0006</td>
+                    <td>Glurak</td>
+                    <td class="img"><img src="img/glurak.png"></td>
+                    <td><span class="type feuer">Feuer</span> <span class="type flug">Flug</span></td>
+                    <td>1.7 m</td>
+                    <td>90.5 kg</td>
+                    <td>
+                        <audio id="audioGlurak" src="audio/0006.mp3"></audio>
+                        <button onclick="document.getElementById('audioGlurak').play()">Play Sound</button>
+                    </td>
+                </tr>
+
+                <tr class="grey">
+                    <td>0007</td>
+                    <td>Schiggy</td>
+                    <td class="img"><img src="img/shiggy.png"></td>
+                    <td><span class="type wasser">Wasser</span></td>
+                    <td>0.5 m</td>
+                    <td>9.0 kg</td>
+                    <td>
+                        <audio id="audioSchiggy" src="audio/0007.mp3"></audio>
+                        <button onclick="document.getElementById('audioSchiggy').play()">Play Sound</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>0008</td>
+                    <td>Schillok</td>
+                    <td class="img"><img src="img/shillok.png"></td>
+                    <td><span class="type wasser">Wasser</span></td>
+                    <td>0.9 m</td>
+                    <td>22.5 kg</td>
+                    <td>
+                        <audio id="audioSchillok" src="audio/0008.mp3"></audio>
+                        <button onclick="document.getElementById('audioSchillok').play()">Play Sound</button>
+                    </td>
+                </tr>
+
+                <tr class="grey">
+                    <td>0009</td>
+                    <td>Turtok</td>
+                    <td class="img"><img src="img/turtok.png"></td>
+                    <td><span class="type wasser">Wasser</span></td>
+                    <td>1.6 m</td>
+                    <td>85.5 kg</td>
+                    <td>
+                        <audio id="audioTurtok" src="audio/0009.mp3"></audio>
+                        <button onclick="document.getElementById('audioTurtok').play()">Play Sound</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>0010</td>
+                    <td>Raupy</td>
+                    <td class="img"><img src="img/raupy.png"></td>
+                    <td><span class="type kaefer">Käfer</span></td>
+                    <td>0.3 m</td>
+                    <td>3.5 kg</td>
+                    <td>
+                        <audio id="audioCaterpie" src="audio/0010.mp3"></audio>
+                        <button onclick="document.getElementById('audioCaterpie').play()">Play Sound</button>
+                    </td>
+                </tr>
+
+                <tr class="grey">
+                    <td>0011</td>
+                    <td>Safcon</td>
+                    <td class="img"><img src="img/safcon.png"></td>
+                    <td><span class="type kaefer">Käfer</span></td>
+                    <td>0.7 m</td>
+                    <td>18.5 kg</td>
+                    <td>
+                        <audio id="audioRattikarl" src="audio/0011.mp3"></audio>
+                        <button onclick="document.getElementById('audioRattikarl').play()">Play Sound</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>0012</td>
+                    <td>Smettbo</td>
+                    <td class="img"><img src="img/smettbo.png"></td>
+                    <td><span class="type kaefer">Käfer</span>
+                    <span class="type flug">Flug</span></td>
+                    <td>0.6 m</td>
+                    <td>12.0 kg</td>
+                    <td>
+                        <audio id="audioSandan" src="audio/0012.mp3"></audio>
+                        <button onclick="document.getElementById('audioSandan').play()">Play Sound</button>
+                    </td>
+                </tr>
+
+                <tr class="grey">
+                    <td>0013</td>
+                    <td>Hornliu</td>
+                    <td class="img"><img src="img/hornliu.png"></td>
+                    <td><span class="type kaefer">Käfer</span>
+                    <span class="type gift">Gift</span></td>
+                    <td>1.0 m</td>
+                    <td>26.0 kg</td>
+                    <td>
+                        <audio id="audioSandamer" src="audio/0013.mp3"></audio>
+                        <button onclick="document.getElementById('audioSandamer').play()">Play Sound</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>0014</td>
+                    <td>Kokuna</td>
+                    <td class="img"><img src="img/kokuna.png"></td>
+                    <td><span class="type kaefer">Käfer</span>
+                    <span class="type gift">Gift</span></td>
+                    <td>0.6 m</td>
+                    <td>9.9 kg</td>
+                    <td>
+                        <audio id="audioVulpix" src="audio/0014.mp3"></audio>
+                        <button onclick="document.getElementById('audioVulpix').play()">Play Sound</button>
+                    </td>
+                </tr>
+
+                <tr class="grey">
+                    <td>0015</td>
+                    <td>Bibor</td>
+                    <td class="img"><img src="img/bibor.png"></td>
+                    <td><span class="type kaefer">Käfer</span>
+                    <span class="type gift">Gift</span></td>
+                    <td>1.1 m</td>
+                    <td>19.9 kg</td>
+                    <td>
+                        <audio id="audioVulnona" src="audio/0015.mp3"></audio>
+                        <button onclick="document.getElementById('audioVulnona').play()">Play Sound</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>0016</td>
+                    <td>Taubsi</td>
+                    <td class="img"><img src="img/taubsi.png"></td>
+                    <td><span class="type flug">Flug</span>
+                    <span class="type normal">Normal</span></td>
+                    <td>0.6 m</td>
+                    <td>19.0 kg</td>
+                    <td>
+                        <audio id="audioGrowlithe" src="audio/0016.mp3"></audio>
+                        <button onclick="document.getElementById('audioGrowlithe').play()">Play Sound</button>
+                    </td>
+                </tr>
+
+                <tr class="grey">
+                    <td>0017</td>
+                    <td>Tauboga</td>
+                    <td class="img"><img src="img/tauboga.png"></td>
+                    <td><span class="type flug">Flug</span>
+                    <span class="type normal">Normal</span></td>
+                    <td>1.9 m</td>
+                    <td>155.0 kg</td>
+                    <td>
+                        <audio id="audioArcanine" src="audio/0017.mp3"></audio>
+                        <button onclick="document.getElementById('audioArcanine').play()">Play Sound</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>0018</td>
+                    <td>Tauboss</td>
+                    <td class="img"><img src="img/tauboss.png"></td>
+                    <td><span class="type flug">Flug</span>
+                    <span class="type normal">Normal</span></td>
+                    <td>1.0 m</td>
+                    <td>30.0 kg</td>
+                    <td>
+                        <audio id="audioPonyta" src="audio/0018.mp3"></audio>
+                        <button onclick="document.getElementById('audioPonyta').play()">Play Sound</button>
+                    </td>
+                </tr>
+
+            </table>
+
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body {
+    font-family: montserrat;
+}
+
+.wrapper {
+    width: min(1200px, 100% - 3rem);
+    margin-inline: auto;
+}
+
+.grey{
+background-color: #F2F2F2;
+}
+
+
+.pokedex_table {
+    background-color: white;
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+caption,
+th,
+td {
+    padding: 1rem;
+
+
+}
+
+caption, th {
+    text-align: left;
+}
+
+th{
+color: white;
+}
+
+caption {
+    background-color: black;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+th {
+    background-color: #ee1515;
+}
+
+.type {
+    padding: 0.2rem 0.6rem;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.pflanze {
+    background-color: #4CAF50;
+}
+
+.gift {
+    background-color: #8E44AD;
+}
+
+.feuer {
+    background-color: #E74C3C;
+}
+
+.wasser {
+    background-color: #3498DB;
+}
+
+.flug {
+    background-color: #85C1AE;
+}
+
+.normal {
+    background-color: #BDC3C7;
+}
+
+.boden {
+    background-color: #9E7E3A;
+}
+
+.kampf {
+    background-color: #F39C12;
+}
+
+.unlicht {
+    background-color: #2C3E50;
+}
+
+.kaefer {
+    background-color: #729F3F;
+}
+
